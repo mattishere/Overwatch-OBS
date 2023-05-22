@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0,0,0,.2)
+}
+
+.top, .ranks {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+img {
+    margin: 5px;
+    height: 50px;
+}
+
+#portrait {
+    height: 80px;
+    border-radius: 10px;
+}
+
+.ranks img {
+    height: 65px;
+}
+
+.ranks #tank, .ranks #dps, .ranks #support {
+    height: 50px;
+}
