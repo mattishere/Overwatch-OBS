@@ -37,4 +37,4 @@ You can of course also change the frontend as you like, since it's vanilly HTMl,
 
 # Other notes
 
-The server automatically restarts when you change the configuration, but the frontend page does not. This means you will have to refresh the page.
+File watcher is being a bit unusual in some cases, meaning that I advise against changing the config.json while the server is running. Just do your config and start the session, and it should work pretty well!
