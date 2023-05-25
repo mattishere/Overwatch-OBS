@@ -32,5 +32,3 @@ The port you can leave as is, unless you're running something on port 3000 alrea
 The update time means how often you want to update the data (in seconds) - please note that there is a delay from when Overwatch updates your rank as well!
 
 You can also hide the endorsement and portrait images if you only want to see your ranks.
-
-You can of course also change the frontend as you like, since it's vanilla HTMl, CSS and JS.
