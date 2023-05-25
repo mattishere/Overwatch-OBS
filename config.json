@@ -1,8 +1,6 @@
 {
-    "tag": "yourtag-2211",
+    "tag": "yourtag-1234",
     "port": 3000,
-
-    "updateTime": 5,
-    "hideEndorsement": false,
-    "hidePortrait": false
+    "updateTime": 30,
+    "ranksOnly": false
 }

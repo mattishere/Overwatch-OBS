@@ -7,7 +7,7 @@ body {
     background-color: rgba(0,0,0,.2)
 }
 
-.top, .ranks {
+#top, #ranks {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -23,10 +23,10 @@ img {
     border-radius: 10px;
 }
 
-.ranks img {
+#ranks img {
     height: 65px;
 }
 
-.ranks #tank, .ranks #dps, .ranks #support {
+#ranks #tank, #ranks #dps, #ranks #support {
     height: 50px;
 }

@@ -1,9 +1,10 @@
 # Overwatch OBS
-Please note that this is not a full release, but a demo. At the moment, the web scraper does not take into account that you might not have ranks for all 3 roles, resulting in a faulty result (this will be fixed!).
-
-Better README.md coming soon!
+Please note that this is still in very early development and bugs are to be expected, although generally I try to test my code as much as possible before pushing!
 
 ## Installation
+
+### You can also check out this official guide (Click on the image)!
+[![Official guide](https://img.youtube.com/vi/Df9fZbjNqu4/0.jpg)](https://www.youtube.com/watch?v=Df9fZbjNqu4)
 
 - install the packages: `$ npm install`
 - change the tag
@@ -19,9 +20,8 @@ For configuration, check the `config.json`!
 {
     "tag": "yourtag-1234",
     "port": 3000,
-    "updateTime": 240,
-    "hideEndorsement": false,
-    "hidePortrait": false
+    "updateTime": 30,
+    "ranksOnly": false
 }
 ```
 
@@ -33,8 +33,4 @@ The update time means how often you want to update the data (in seconds) - pleas
 
 You can also hide the endorsement and portrait images if you only want to see your ranks.
 
-You can of course also change the frontend as you like, since it's vanilly HTMl, CSS and JS.
-
-# Other notes
-
-The server automatically restarts when you change the configuration, but the frontend page does not. This means you will have to refresh the page.
+You can of course also change the frontend as you like, since it's vanilla HTMl, CSS and JS.
