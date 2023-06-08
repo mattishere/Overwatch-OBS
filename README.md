@@ -12,6 +12,7 @@ Please note that this is still in very early development and bugs are to be expe
 - add a local browser source to OBS
 - set its source to `.../overwatch-obs/website/index.html`
 
+
 ## Configuration
 
 For configuration, check the `config.json`!
@@ -32,3 +33,10 @@ The port you can leave as is, unless you're running something on port 3000 alrea
 The update time means how often you want to update the data (in seconds) - please note that there is a delay from when Overwatch updates your rank as well!
 
 You can also hide the endorsement and portrait images if you only want to see your ranks.
+
+
+## Using Docker
+
+You should be able to use [Nixpacks](https://nixpacks.com/) to build a docker image without needing to configure a Dockerfile manually.
+
+When running in Docker, the environment variable `OW_OBS_CONFIG_PATH` will be useful - it overrides the config path, allowing use of a bound config file rather than the default. *While Docker allows binds to override existing files, this seems to cause issues so is not recommended.*
