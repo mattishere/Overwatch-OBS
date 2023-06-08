@@ -12,7 +12,7 @@ app.use(cors());
 let config;
 try {
     const configPath = process.env.OW_OBS_CONFIG_PATH ?? './config.json'
-    config = JSON.parse(fs.readFileSync(configPath), 'utf-8'));
+    config = JSON.parse(fs.readFileSync(configPath), 'utf-8');
     startEndpoint();
 } catch (err) {
     console.log(`Error while reading 'config.json': ${err}`)
